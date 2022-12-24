@@ -6,7 +6,7 @@ const Contactos = ({ cont, eliminar, estado }) => {
 
     function CompletadoButon() {
         if (cont.estado) {
-            return(<i onClick={() => estado(cont)} className='bi-circle-fill' style={{ color: 'green' }}>Conectado</i>)
+            return(<i onClick={() => estado(cont)} className='bi-circle-fill' style={{ color: 'green', cursor:'pointer'}}>Conectado</i>)
         } else {
             return (<i onClick={() => estado(cont)} className='bi-circle-fill'  style={{ color: 'grey' , cursor:'pointer'}}>Desconectado</i>)
             
