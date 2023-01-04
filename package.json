@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "-": "^0.0.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "formik": "^2.2.9",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.6.1",
+    "redux": "^4.2.0",
+    "redux-saga": "^1.2.2",
+    "save": "^2.9.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.9"
+  }
+}
